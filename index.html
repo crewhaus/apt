@@ -1,0 +1,7 @@
+<!doctype html><meta charset="utf-8"><title>CrewHaus apt repository</title>
+<h1>CrewHaus apt repository</h1>
+<p>Install the <code>crewhaus</code> CLI on Debian/Ubuntu:</p>
+<pre>curl -fsSL https://crewhaus.github.io/apt/key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/crewhaus.gpg
+echo "deb [signed-by=/usr/share/keyrings/crewhaus.gpg] https://crewhaus.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/crewhaus.list
+sudo apt update &amp;&amp; sudo apt install crewhaus</pre>
+<p>Apache-2.0 · <a href="https://github.com/crewhaus/factory">crewhaus/factory</a></p>
