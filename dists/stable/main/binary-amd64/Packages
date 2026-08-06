@@ -1,13 +1,13 @@
 Package: crewhaus
-Version: 0.5.0
+Version: 0.5.1
 Architecture: amd64
 Maintainer: CrewHaus Maintainers <maintainers@crewhaus.ai>
 Depends: libc6 (>= 2.31)
-Filename: pool/main/crewhaus_0.5.0_amd64.deb
-Size: 28758832
-MD5sum: 9c30c05f9ebdf00b5d0e8101dd234d63
-SHA1: e5086436f94506a68989cc71444f04126071808d
-SHA256: a8be17941f0ddb84111e3c5a68d3b0a4e9e074493f49475b1df045a5a6a16bb7
+Filename: pool/main/crewhaus_0.5.1_amd64.deb
+Size: 28761948
+MD5sum: 4232a63831fa04c71c2e19b8bd4fc660
+SHA1: 1c89e13f5cdcf0025112b5bbcfb0a4a6c0bc779b
+SHA256: 3216c5801c03ee3efd90666e2b1f492c74814807a5fdebbb87294a05a36a1a4b
 Section: utils
 Priority: optional
 Description: Modular meta-harness — compile a single spec into multiple agent runtimes
